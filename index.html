@@ -87,7 +87,7 @@
 								<input style="border-radius:10px;padding:0 5px;" type="radio" name="homeState" value="0" /><span style="color:#ffffff;font-size:12px;"> 新房未交 </span>
 							</div>
 							<div class="formLine">
-								<label>面积</label><input style="border-radius:10px;padding:0 5px;width:143px;" type="text" name="homeArea" value="不能小于60" size="8" onfocus="inputHomeArea(this)" onblur="ckHomeArea(this)" /><span style="color:#ffffff;font-size:12px;"> 平米</span>
+								<label>面积</label><input style="border-radius:10px;padding:0 5px;width:143px;" type="text" name="homeArea" value="不能小于85" size="8" onfocus="inputHomeArea(this)" onblur="ckHomeArea(this)" /><span style="color:#ffffff;font-size:12px;"> 平米</span>
 							</div>
 							<div style="width:330px;height:100px;background:#C31232;margin-top:30px;">
 								<input style="height:50px;width:160px;background:#C31232;font-size:24px;margin-top:25px;margin-left:80px;color:#FFFFFF;font-weight:bold;border:2px solid #FFFFFF;cursor:pointer;" type="submit" value="立即报名" />
@@ -135,14 +135,14 @@
 				}
 				function inputHomeArea(x)
 				{
-					if (x.value == "不能小于60"){
+					if (x.value == "不能小于85"){
 						x.value = "";
 					}
 				}
 				function ckHomeArea(x)
 				{
 					if (x.value == ""){
-						x.value = "不能小于60";
+						x.value = "不能小于85";
 					}
 				}
 				function submitck(){
@@ -169,7 +169,7 @@
 						alert("请选择 新房现房 或 新房未交");
 						return false;
 					}
-					if (reg.homeArea.value == "不能小于85" || reg.homeArea.value < 60){
+					if (reg.homeArea.value == "不能小于85" || reg.homeArea.value < 85){
 						alert("小于60平米不能参加活动");
 						reg.homeArea.focus();
 						return false;
@@ -256,7 +256,7 @@
 			
 			<div id="video" class="bj06">
 				<div style="width:1000px;margin:0 auto;padding:110px 0 0 140px;">
-					<video src="http://oaapf37iy.bkt.clouddn.com/video1484-2983.mp4" width="845px" height="613px" controls="controls" >您的浏览器不支持HTML5的视频</video>
+					<video src="http://oaapf37iy.bkt.clouddn.com/frxcp.mp4" width="845px" height="613px" controls="controls" >您的浏览器不支持HTML5的视频</video>
 				</div>
 			</div>
 			
