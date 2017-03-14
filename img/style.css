@@ -183,13 +183,24 @@ a {
 .ttBox img {
 	margin-bottom:10px;
 }
+.tBoxBack{
+  width:800px;
+	display:block;
+	margin:0 auto;
+	padding:5px 0;
+	background:rgba(255,255,255,.3);
+}
+.tBoxBack img{
+  margin:5px 10px;
+  width:780px;
+}
 .left3{
 	float: left;
-    display: block;
-    border-left: 20px solid rgba(0,0,0,0);
-    border-top: 20px solid rgba(0,0,0,0);
-    border-right: 20px solid #c00;
-    border-bottom: 20px solid #c00;
+  display: block;
+  border-left: 20px solid rgba(0,0,0,0);
+  border-top: 20px solid rgba(0,0,0,0);
+  border-right: 20px solid #c00;
+  border-bottom: 20px solid #c00;
 }
 .daqm{
 	width:200px;
